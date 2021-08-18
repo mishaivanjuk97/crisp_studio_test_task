@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+$yellow-color: #e0ff04;
+$light-grey: #999999;
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scrollbar-width: none;
+
+}
+
+body {
+   background-color: #fff;
+   font-family: 'Work Sans', sans-serif;
+   letter-spacing: 1.12px;
+   line-height: 26px;
+
+   -ms-overflow-style: none;
+   &::-webkit-scrollbar {
+      display: none;
+   }
+}
+
+a {
+   text-decoration: none;
+   color: #000;
+}

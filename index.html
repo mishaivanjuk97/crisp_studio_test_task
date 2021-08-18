@@ -1,0 +1,644 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>KOIBIRD</title>
+ </head>
+ <body>
+   <nav class="navbar">
+      <header class="navbar__header">
+
+         <div class="navbar__input-wrapper">
+            <input type="text" class="navbar__input">
+         </div>
+   
+         <div class="navbar__logo"></div>
+   
+         <div class="account">
+            <div class="user">
+               <div class="user__register">
+                  <a href="#">Register</a>
+               </div>
+               <div class="user__account">
+                  <a href="#">My Account</a>
+               </div>
+            </div>
+   
+            <div class="account__wishlist"></div>
+   
+            <div class="account__shopping-bag"></div>
+         </div>
+      </header>
+
+      <div class="navbar__menu">
+         <div class="dropdown">
+            <a href="#" class="dropdown__link">Shop by category</a>
+            <div class="dropdown-content">
+               <div class="dropdown-content__link">
+                  <a href="#">Outerwear</a>
+               </div>
+               <div class="dropdown-content__link">
+                  <a href="#">Skis</a>
+               </div>
+               <div class="dropdown-content__link">
+                  <a href="#">Knitwear</a>
+               </div>
+               <div class="dropdown-content__link">
+                  <a href="#" class="dropdown-content__link">Accessories</a>
+               </div>
+               <div class="dropdown-content__link">
+                  <a href="#" class="dropdown-content__link">Goggles</a>
+               </div>
+               <div class="dropdown-content__link">
+                  <a href="#" class="dropdown-content__link">Jackets</a>
+               </div>
+            </div>
+         </div>
+         <div class="dropdown">
+            <a href="#" class="dropdown__link">Shop by brand</a>
+            <div class="dropdown-content">
+               <div  class="dropdown-content__link">
+                  <a href="#">Annakiki</a>
+               </div>
+               <div  class="dropdown-content__link">
+                  <a href="#">Anne West</a>
+               </div>
+               <div  class="dropdown-content__link">
+                  <a href="#">Bacon Clothing</a>
+               </div>
+               <div  class="dropdown-content__link">
+                  <a href="#">Black Crows</a>
+               </div>
+               <div  class="dropdown-content__link">
+                  <a href="#">Blancha</a>
+               </div>
+               <div  class="dropdown-content__link">
+                  <a href="#">Cancellato</a>
+               </div>
+               <div  class="dropdown-content__link">
+                  <a href="#">Cordova</a>
+               </div>
+               <div  class="dropdown-content__link">
+                  <a href="#">Fusalp</a>
+               </div>
+               <div  class="dropdown-content__link">
+                  <a href="#">I love mr.Mittens</a>
+               </div>
+               <div  class="dropdown-content__link">
+                  <a href="#">Ienki Ienki</a>
+               </div>
+            </div>
+         </div>
+         <div class="dropdown">
+            <a href="#" class="dropdown__link">Shop by collection</a>
+            <div class="dropdown-content">
+               <div class="dropdown-content__link">
+                  <a href="#">Le kilt</a>
+               </div>
+               <div class="dropdown-content__link">
+                  <a href="#">Lingua franca</a>
+               </div>
+               <div class="dropdown-content__link">
+                  <a href="#">Morpho and luna</a>
+               </div>
+               <div class="dropdown-content__link">
+                  <a href="#">Natasha Zinko</a>
+               </div>
+               <div class="dropdown-content__link">
+                  <a href="#">Perfect moment</a>
+               </div>
+               <div class="dropdown-content__link">
+                  <a href="#">Spencer Vladimir</a>
+               </div>
+               <div class="dropdown-content__link">
+                  <a href="#">Stand</a>
+               </div>
+               <div class="dropdown-content__link">
+                  <a href="#">Wild and woolly</a>
+               </div>
+               <div class="dropdown-content__link">
+                  <a href="#">Wooly Booly</a>
+               </div>
+               <div class="dropdown-content__link">
+                  <a href="#">Black crows</a>
+               </div>
+            </div>
+         </div>
+         <a href="#" class="navbar__link">About koibird</a>
+         <a href="#" class="navbar__link">Pop-up shop</a>
+      </div>
+
+      <div class="navbar-mobile">
+         <div class="navbar-mobile__logo">
+            <img src="img/LOGO-sm.png">
+         </div>
+
+         <div class="navbar-mobile__button">
+            <i class="fas fa-bars" id="bars"></i>
+         </div>
+
+         <div class="navbar-mobile__content">
+            <div class="navbar-mobile__menu">
+               <div class="navbar__input-wrapper">
+                  <input type="text" class="navbar__input">
+               </div>
+               <div class="dropdown">
+                  <a href="#" class="dropdown__link">Shop by category</a>
+                  <div class="dropdown-content">
+                     <div class="dropdown-content__link">
+                        <a href="#">Outerwear</a>
+                     </div>
+                     <div class="dropdown-content__link">
+                        <a href="#">Skis</a>
+                     </div>
+                     <div class="dropdown-content__link">
+                        <a href="#">Knitwear</a>
+                     </div>
+                     <div class="dropdown-content__link">
+                        <a href="#" class="dropdown-content__link">Accessories</a>
+                     </div>
+                     <div class="dropdown-content__link">
+                        <a href="#" class="dropdown-content__link">Goggles</a>
+                     </div>
+                     <div class="dropdown-content__link">
+                        <a href="#" class="dropdown-content__link">Jackets</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="dropdown">
+                  <a href="#" class="dropdown__link">Shop by brand</a>
+                  <div class="dropdown-content">
+                     <div  class="dropdown-content__link">
+                        <a href="#">Annakiki</a>
+                     </div>
+                     <div  class="dropdown-content__link">
+                        <a href="#">Anne West</a>
+                     </div>
+                     <div  class="dropdown-content__link">
+                        <a href="#">Bacon Clothing</a>
+                     </div>
+                     <div  class="dropdown-content__link">
+                        <a href="#">Black Crows</a>
+                     </div>
+                     <div  class="dropdown-content__link">
+                        <a href="#">Blancha</a>
+                     </div>
+                     <div  class="dropdown-content__link">
+                        <a href="#">Cancellato</a>
+                     </div>
+                     <div  class="dropdown-content__link">
+                        <a href="#">Cordova</a>
+                     </div>
+                     <div  class="dropdown-content__link">
+                        <a href="#">Fusalp</a>
+                     </div>
+                     <div  class="dropdown-content__link">
+                        <a href="#">I love mr.Mittens</a>
+                     </div>
+                     <div  class="dropdown-content__link">
+                        <a href="#">Ienki Ienki</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="dropdown">
+                  <a href="#" class="dropdown__link">Shop by collection</a>
+                  <div class="dropdown-content">
+                     <div class="dropdown-content__link">
+                        <a href="#">Le kilt</a>
+                     </div>
+                     <div class="dropdown-content__link">
+                        <a href="#">Lingua franca</a>
+                     </div>
+                     <div class="dropdown-content__link">
+                        <a href="#">Morpho and luna</a>
+                     </div>
+                     <div class="dropdown-content__link">
+                        <a href="#">Natasha Zinko</a>
+                     </div>
+                     <div class="dropdown-content__link">
+                        <a href="#">Perfect moment</a>
+                     </div>
+                     <div class="dropdown-content__link">
+                        <a href="#">Spencer Vladimir</a>
+                     </div>
+                     <div class="dropdown-content__link">
+                        <a href="#">Stand</a>
+                     </div>
+                     <div class="dropdown-content__link">
+                        <a href="#">Wild and woolly</a>
+                     </div>
+                     <div class="dropdown-content__link">
+                        <a href="#">Wooly Booly</a>
+                     </div>
+                     <div class="dropdown-content__link">
+                        <a href="#">Black crows</a>
+                     </div>
+                  </div>
+               </div>
+               <a href="#" class="navbar__link">About koibird</a>
+               <a href="#" class="navbar__link">Pop-up shop</a>
+            </div>
+            <div class="navbar-mobile__account">
+               <div class="user-mobile">
+                  <div class="user-mobile__register">
+                     <a href="#">Register</a>
+                  </div>
+                  <div class="user-mobile__account">
+                     <a href="#">My Account</a>
+                  </div>
+               </div>
+         
+               <div class="navbar-mobile__icons">
+                  <img src="img/WISHLIST_ICON.png">
+                  <img src="img/shopping_bag.png">
+               </div>
+                              
+            </div>
+         </div>
+      </div>
+   </nav>
+
+   <section class="showcase">
+      <div class="banner">
+         <div class="banner__logo"></div>
+         <a href="#" class="banner__link">BEAUTY AND THE PISTE</a>
+      </div>
+   </section>
+
+   <section class="strapline">
+      <p class="strapline__heading">What we are shopping now</p>
+   </section>
+
+   <section class="arrival">
+      <div class="container">
+         <div class="arrival-carousel">
+            <div class="arrival-carousel__wrapper">
+               <div class="arrival-carousel__body">
+                  <div class="product">
+                     <img src="img/blackcoat.png" class="product__image">
+                     <div class="product__info">
+                        <i class="fas fa-heart product__wishlist-icon"></i>
+                        <p class="product__name">
+                           Black jacket
+                        </p>
+                        <p class="product__company">
+                           Gucci
+                        </p>
+                        <p class="product__price">
+                           £000
+                        </p>
+                        <button class="product__button">Shop now</button>
+                     </div>               
+                  </div>
+                  <div class="product">
+                     <img src="img/whitecoat.png" class="product__image">
+                     <div class="product__info">
+                        <i class="fas fa-heart product__wishlist-icon"></i>
+                        <p class="product__name">
+                           White jacket
+                        </p>
+                        <p class="product__company">
+                           Bacon Clothing
+                        </p>
+                        <p class="product__price">
+                           £000
+                        </p>
+                        <button class="product__button">Shop now</button>
+                     </div>               
+                  </div>
+                  <div class="product">
+                     <img src="img/yellowcoat.png" class="product__image">
+                     <div class="product__info">
+                        <i class="fas fa-heart product__wishlist-icon"></i>
+                        <p class="product__name">
+                           Yellow jacket
+                        </p>
+                        <p class="product__company">
+                           Annakiki
+                        </p>
+                        <p class="product__price">
+                           £000
+                        </p>
+                        <button class="product__button">Shop now</button>                  
+                     </div>      
+                  </div>
+                  <div class="product">
+                     <img src="img/camocoat.png" class="product__image">
+                     <div class="product__info">
+                        <i class="fas fa-heart product__wishlist-icon"></i>
+                        <p class="product__name">
+                           Camouflage jacket
+                        </p>
+                        <p class="product__company">
+                           Black Crows
+                        </p>
+                        <p class="product__price">
+                           £000
+                        </p>
+                        <button class="product__button">Shop now
+                        <button>                  
+                     </div>               
+                  </div>
+                  <div class="product">
+                     <img src="img/pinkhat.png" class="product__image">
+                     <div class="product__info">
+                        <i class="fas fa-heart product__wishlist-icon"></i>
+                        <p class="product__name">
+                           Pink knit beanie
+                        </p>
+                        <p class="product__company">
+                           Bacon Clothing
+                        </p>
+                        <p class="product__price">
+                           £000
+                        </p>
+                        <button class="product__button">Shop now</button>                  
+                     </div>               
+                  </div>
+                  <div class="product">
+                     <img src="img/whitepurse.png" class="product__image">
+                     <div class="product__info">
+                        <i class="fas fa-heart product__wishlist-icon"></i>
+                        <p class="product__name">
+                           Cream handbag
+                        </p>
+                        <p class="product__company">
+                           Black Crows
+                        </p>
+                        <p class="product__price">
+                           £000
+                        </p>
+                        <button class="product__button">Shop now</button>                  
+                     </div>               
+                  </div>
+               </div>              
+            </div>
+
+            <div class="arrival-carousel__button arrival-carousel__button_left"></div>
+            <div class="arrival-carousel__button arrival-carousel__button_right"></div>  
+         </div>
+      </div>
+   </section>
+
+   <section class="category-shopping">
+      <div class="container">
+         <div class="categories">
+            <div class="category">
+               <div class="category__header">Outerwear</div>
+               <a href="#" class="category__button">Shop now<i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="category">
+               <div class="category__header">Skis</div>
+               <a href="#" class="category__button">Shop now<i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="category">
+               <div class="category__header">Knitwear</div>
+               <a href="#" class="category__button">Shop now<i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="category">
+               <div class="category__header">Accessories</div>
+               <a href="#" class="category__button">Shop now<i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="category">
+               <div class="category__header">Goggles</div>
+               <a href="#" class="category__button">Shop now<i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="category">
+               <div class="category__header">Jackets</div>
+               <a href="#" class="category__button">Shop now<i class="fas fa-chevron-right"></i></a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="best-sellers">
+      <div class="container">
+         <div class="best-sellers-carousel">
+            <div class="best-sellers-carousel__wrapper">
+               <div class="best-sellers-carousel__body">
+                  <div class="product">
+                     <img src="img/img.png" class="product__image">
+                     <div class="product__info">
+                        <i class="fas fa-heart product__wishlist-icon"></i>
+                        <p class="product__name">
+                           Pink jacket
+                        </p>
+                        <p class="product__company">
+                           Gucci
+                        </p>
+                        <p class="product__price">
+                           £000
+                        </p>
+                        <button class="product__button">Shop now</button>
+                     </div>               
+                  </div>
+                  <div class="product">
+                     <img src="img/pinkhat.png" class="product__image">
+                     <div class="product__info">
+                        <i class="fas fa-heart product__wishlist-icon"></i>
+                        <p class="product__name">
+                           Pink knit beanie
+                        </p>
+                        <p class="product__company">
+                           Bacon Clothing
+                        </p>
+                        <p class="product__price">
+                           £000
+                        </p>
+                        <button class="product__button">Shop now</button>                  
+                     </div>               
+                  </div>
+                  <div class="product">
+                     <img src="img/gloves.png" class="product__image">
+                     <div class="product__info">
+                        <i class="fas fa-heart product__wishlist-icon"></i>
+                        <p class="product__name">
+                           Gold gloves
+                        </p>
+                        <p class="product__company">
+                           Annakiki
+                        </p>
+                        <p class="product__price">
+                           £000
+                        </p>
+                        <button class="product__button">Shop now</button>                  
+                     </div>               
+                  </div>
+                  <div class="product">
+                     <img src="img/whitepurse.png" class="product__image">
+                     <div class="product__info">
+                        <i class="fas fa-heart product__wishlist-icon"></i>
+                        <p class="product__name">
+                           Cream handbag
+                        </p>
+                        <p class="product__company">
+                           Black Crows
+                        </p>
+                        <p class="product__price">
+                           £000
+                        </p>
+                        <button class="product__button">Shop now</button>                  
+                     </div>               
+                  </div>
+                  <div class="product">
+                     <img src="img/blackcoat.png" class="product__image">
+                     <div class="product__info">
+                        <i class="fas fa-heart product__wishlist-icon"></i>
+                        <p class="product__name">
+                           Black jacket
+                        </p>
+                        <p class="product__company">
+                           Gucci
+                        </p>
+                        <p class="product__price">
+                           £000
+                        </p>
+                        <button class="product__button">Shop now</button>
+                     </div>               
+                  </div>
+                  <div class="product">
+                     <img src="img/whitecoat.png" class="product__image">
+                     <div class="product__info">
+                        <i class="fas fa-heart product__wishlist-icon"></i>
+                        <p class="product__name">
+                           White jacket
+                        </p>
+                        <p class="product__company">
+                           Bacon Clothing
+                        </p>
+                        <p class="product__price">
+                           £000
+                        </p>
+                        <button class="product__button">Shop now</button>
+                     </div>               
+                  </div>
+                  <div class="product">
+                     <img src="img/yellowcoat.png" class="product__image">
+                     <div class="product__info">
+                        <i class="fas fa-heart product__wishlist-icon"></i>
+                        <p class="product__name">
+                           Yellow jacket
+                        </p>
+                        <p class="product__company">
+                           Annakiki
+                        </p>
+                        <p class="product__price">
+                           £000
+                        </p>
+                        <button class="product__button">Shop now</button>                  
+                     </div>      
+                  </div>
+                  <div class="product">
+                     <img src="img/camocoat.png" class="product__image">
+                     <div class="product__info">
+                        <i class="fas fa-heart product__wishlist-icon"></i>
+                        <p class="product__name">
+                           Camouflage jacket
+                        </p>
+                        <p class="product__company">
+                           Black Crows
+                        </p>
+                        <p class="product__price">
+                           £000
+                        </p>
+                        <button class="product__button">Shop now
+                        <button>                  
+                     </div>               
+                  </div>
+               </div>
+            </div>
+            
+            <div class="best-sellers-carousel__button best-sellers-carousel__button_left"></div>
+            <div class="best-sellers-carousel__button best-sellers-carousel__button_right"></div>
+         </div>
+      </div>
+   </section>
+
+   <section class="instagram">
+      <div class="instagram__wrapper">
+         <div class="instagram__block">
+            <i class="fab fa-instagram instagram__logo"></i>
+            <a href="https://www.instagram.com" class="instagram__link" target="_blank">Shop the look<i class="fas fa-chevron-right"></i></a>
+         </div>
+         <div class="instagram__block">
+            <i class="fab fa-instagram instagram__logo"></i>
+            <a href="https://www.instagram.com" class="instagram__link" target="_blank">Shop the look<i class="fas fa-chevron-right"></i></a>
+         </div>
+         <div class="instagram__block">
+            <i class="fab fa-instagram instagram__logo"></i>
+            <a href="https://www.instagram.com" class="instagram__link" target="_blank">Shop the look<i class="fas fa-chevron-right"></i></a>
+         </div>
+         <div class="instagram__block">
+            <i class="fab fa-instagram instagram__logo"></i>
+            <a href="https://www.instagram.com" class="instagram__link" target="_blank">Shop the look<i class="fas fa-chevron-right"></i></a>
+         </div>
+         <div class="instagram__block">
+            <i class="fab fa-instagram instagram__logo"></i>
+            <a href="https://www.instagram.com" class="instagram__link" target="_blank">Shop the look<i class="fas fa-chevron-right"></i></a>
+         </div>
+         <div class="instagram__block">
+            <i class="fab fa-instagram instagram__logo"></i>
+            <a href="https://www.instagram.com" class="instagram__link" target="_blank">Shop the look<i class="fas fa-chevron-right"></i></a>
+         </div>
+         <div class="instagram__block">
+            <i class="fab fa-instagram instagram__logo"></i>
+            <a href="https://www.instagram.com" class="instagram__link" target="_blank">Shop the look<i class="fas fa-chevron-right"></i></a>
+         </div>
+         <div class="instagram__block">
+            <i class="fab fa-instagram instagram__logo"></i>
+            <a href="https://www.instagram.com" class="instagram__link" target="_blank">Shop the look<i class="fas fa-chevron-right"></i></a>
+         </div>
+         <div class="instagram__block">
+            <i class="fab fa-instagram instagram__logo"></i>
+            <a href="https://www.instagram.com" class="instagram__link" target="_blank">Shop the look<i class="fas fa-chevron-right"></i></a>
+         </div>
+         <div class="instagram__block">
+            <i class="fab fa-instagram instagram__logo"></i>
+            <a href="https://www.instagram.com" class="instagram__link" target="_blank">Shop the look<i class="fas fa-chevron-right"></i></a>
+         </div>
+         <div class="instagram__block">
+            <i class="fab fa-instagram instagram__logo"></i>
+            <a href="https://www.instagram.com" class="instagram__link" target="_blank">Shop the look<i class="fas fa-chevron-right"></i></a>
+         </div>
+         <div class="instagram__block">
+            <i class="fab fa-instagram instagram__logo"></i>
+            <a href="https://www.instagram.com" class="instagram__link" target="_blank">Shop the look<i class="fas fa-chevron-right"></i></a>
+         </div>
+      </div>
+   </section>
+
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__items">
+            <div class="footer__info">
+               <div class="footer__logo"></div>
+               <div class="footer__links">
+                  <a href="#">About</a>
+                  <a href="#">Terms & conditions</a>
+                  <a href="#">Privacy policy</a>
+                  <a href="#">Contact us</a>
+               </div>
+            </div>
+
+            <div class="newsletter">
+               <p class="newsletter__heading">SIGN UP FOR OUR NEWSLETTER</p>
+               <form class="newsletter__form">
+                  <input type="email" class="newsletter__input">
+                  <div class="newsletter__checkbox">
+                     <input type="checkbox">              
+                     <p>GDPR tick box GDPR tick box GDPR tick box GDPR tick box GDPR tick box</p>
+                  </div>                  
+                  <button type="submit" class="newsletter__button">Submit ></button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script src="main.js"></script>
+ </body>
+ </html>
